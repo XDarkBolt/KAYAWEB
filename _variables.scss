@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(./fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Italic;
+    src: url(./fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: SFProText;
+    src: url(./fonts/FontsFree-Net-SFProText-Regular.ttf);
+}
+
+$mainColor: #F0F2F5;
+$mainLightColor: #F0F2F5;
+$mainDarkColor: #282424;
+$mainFontFamily: SFProText;
+
+$colorSidebar: #0e0e23;
+
+$colorNeuCard: #ffffff;
+$colorNeuCardFontH: #e7e8ea;
+$colorNeuCardFontP: #9b9ca7;
+
+$colorPrestige: #0e0e23;
+$colorPrestigeDark: #05031A;
+$colorPrestigeBlue: #4255d4;
+$colorPrestigeRed: #ef415c;
+$colorPrestigeYellow: #EF8741;
+$colorPrestigeHeader: #10122b;
+$colorPrestigeCard: radial-gradient(circle, #1a2049 0%, #13162f 100%);
+$prestigeFontFamily: "Inter", sans-serif;
+$colorPrestigeFontColorPrimary: #e7e8ea;
+$colorPrestigeFontColorSecondary: #9b9ca7;
+$colorPrestigeFontColorDanger: #d14b69;
+$colorPrestigeFontColorDangerFocus: #e85471;
+$colorPrestigeFontColorActive: #1aa385;
+$colorPrestigeFontColorActiveFocus: #17a98a;
+$colorPrestigeFontColorBlue: #3E4EC2;
+$colorPrestigeFontColorBlueFocus: #3e50c5;
+
+$colorLight: #EDF5FF;
+$colorLightCard: #FFFFFF;
+$colorLightCardBorder: #C7E0FF;
+$colorLightBlue: #3B82F6;
+$colorLightFontColorPrimary: #191919;
+$colorLightFontColorSecondary: #73879E;
+
+$colorKaya-black: #090A0B;
+$colorKaya-red: #D82C2C;
+$colorKaya-orange: #FF4534;
+
+$colorNeuLight1: #cdcdcd;
+$colorNeuLight2: #d3d4de;
+$colorNeuLight3: #e0e5ec;
+$colorNeuLight4: #E4EBF5;
+$colorNeuLight5: #E7EEF7;
+$colorNeuBlack: #131419;
+$colorNeuGray: #5c6375;
+$colorNeuDark: #353857;
+$colorNeuTextshadowDark: 0 0 20px rgb(0 0 0 / 30%);
+$colorNeuYellow: #e3a34f;
+$colorNeuTextshadowDark: 0 0 50px rgb(255 174 69 / 90%);
+$colorNeuRed: #ff4d61;
+$colorNeuTextshadowDark: 0 0 50px rgb(201 64 80 / 90%);
+$colorNeuGreen: #40c99e;
+$colorNeuTextshadowDark: 0 0 50px rgb(82 255 200 / 90%);
+$colorNeuBorder: 1px solid rgba(255, 255, 255, 0.2);
+$colorNeuBoxshadow1: 8px 8px 20px rgb(0 0 0 / 20%), -8px -8px 20px rgb(255 255 255 / 60%);
+$colorNeuBoxshadow2: 0.8rem 0.8rem 1.4rem #c8d0e7, -0.2rem -0.2rem 1.8rem #ffffff;
+$colorNeuBoxshadow3: 8px 8px 20px #a9a8b7, -8px -8px 20px #fff;
+$colorNeuBoxshadowDark: 8px 8px 20px rgb(0 0 0 / 50%), -8px -8px 20px rgb(255 255 255 / 20%);
+$colorNeuBoxshadowIn: inset 8px 8px 10px rgb(0 0 0 / 20%), inset -8px -8px 10px rgb(255 255 255 / 60%);
+
+$colorBody: $colorNeuLight3;
+$colorDivDark: $colorKaya-black;
+$colorNeuBoxshadow: $colorNeuBoxshadow2;

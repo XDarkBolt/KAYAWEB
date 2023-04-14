@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://kit.fontawesome.com/b3253a0c38.js" crossorigin="anonymous"></script>
+    <style>
+        nav {
+            position: sticky;
+            top: 10px;
+            z-index: 99;
+            display: flex;
+            justify-content: space-between;
+            width: 90%;
+            height: 50px;
+            max-width: 1500px;
+            margin-left: auto;
+            margin-right: auto;
+            align-items: center;
+            border: 1px solid #FFFFFF77;
+            border-radius: 20px;
+            background: radial-gradient(circle, #FFFFFFAA 0%, #FFFFFFCC 100%);
+            backdrop-filter: blur(30px);
+        }
+
+        a {
+            text-decoration: none;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            margin-left: 10px;
+            margin-right: 10px;
+            font-weight: 500;
+            background-color: #FFFFFF;
+            border: 2px solid #EDF5FF77;
+            border-radius: 20px;
+            color: #191919;
+        }
+
+        li {
+            list-style: none;
+            color: #FFFFFF;
+        }
+
+        .navbar-hr hr {
+            border: 5px solid black;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @media (max-width:960px) {
+
+            nav li,
+            a {
+                display: none;
+            }
+
+            nav:hover {
+                cursor: pointer;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div style="position: fixed; z-index: 98; top: 0; width: 100%; height: 80px;
+    backdrop-filter: blur(20px);
+    -webkit-mask: linear-gradient(#000000FF 0%, #000000EE 50%, #00000000 100%);"></div>
+
+    <div style="height: 30px;"></div>
+
+    <nav onclick="location.href='#';" id="navbar">
+        <div style="margin-left: 20px;">
+            <li href="" style="padding: 10px;">BU BIR TEST BASLIGIDIR</li>
+        </div>
+        <div style="margin-right: 20px;">
+            <ul style="display: flex;">
+                <a href="">TEST</a>
+                <a href="">TEST</a>
+            </ul>
+        </div>
+    </nav>
+
+    <script>
+        document.getElementById("navbar")
+    </script>
+
+    <!-- <div
+        style="position: fixed; z-index: 99; top: 50%; max-height: 70%; margin-left: 20px; width: 300px; padding: 50px; background-color: black; border-radius: 20px;">
+    </div> -->
+
+    <img src="pictures/HKFOTO2.png" alt=""
+        style="display: block; position: sticky; left: 20%; width: 30rem; min-width: 100px; max-width: 100%;">
+
+    <div style="display: flex; flex-direction: row;">
+        <div class="neu-card" style="width: 300px;">
+            <h1>
+                ÖZ GEÇMİŞ
+            </h1>
+            <p>
+                Öğrenme serüvenin sonunun olmadığını düşünen ve kendini sürekli geliştiren biriyim. Araştırmayı yeni işler
+                yapmayı seven biri olarak Ar-Ge ve Elektrik Elektronik üzerine akademik alanda ve iş tecrübesi olarak
+                kendimi geliştirmeye devam ettim.
+    
+                • Erasmus programıyla Cagliari üniversitesinde İngilizcemi ve İtalyancamı geliştirdim.
+                • Araştırma Geliştirme (Ar-Ge) Mühendisliği alanında 1 yıllık tecrübe edindim.
+                • İş alanında 3 tane ana projede bulundum ve bazılarını kendim yürüttüm.
+    
+            </p>
+        </div>
+        <div class="neu-card" style="width: 300px;">
+            <h1>
+                ÖZ GEÇMİŞ
+            </h1>
+            <p>
+                Öğrenme serüvenin sonunun olmadığını düşünen ve kendini sürekli geliştiren biriyim. Araştırmayı yeni işler
+                yapmayı seven biri olarak Ar-Ge ve Elektrik Elektronik üzerine akademik alanda ve iş tecrübesi olarak
+                kendimi geliştirmeye devam ettim.
+    
+                • Erasmus programıyla Cagliari üniversitesinde İngilizcemi ve İtalyancamı geliştirdim.
+                • Araştırma Geliştirme (Ar-Ge) Mühendisliği alanında 1 yıllık tecrübe edindim.
+                • İş alanında 3 tane ana projede bulundum ve bazılarını kendim yürüttüm.
+    
+            </p>
+        </div>
+        <div class="neu-card" style="width: 300px;">
+            <h1>
+                ÖZ GEÇMİŞ
+            </h1>
+            <p>
+                Öğrenme serüvenin sonunun olmadığını düşünen ve kendini sürekli geliştiren biriyim. Araştırmayı yeni işler
+                yapmayı seven biri olarak Ar-Ge ve Elektrik Elektronik üzerine akademik alanda ve iş tecrübesi olarak
+                kendimi geliştirmeye devam ettim.
+    
+                • Erasmus programıyla Cagliari üniversitesinde İngilizcemi ve İtalyancamı geliştirdim.
+                • Araştırma Geliştirme (Ar-Ge) Mühendisliği alanında 1 yıllık tecrübe edindim.
+                • İş alanında 3 tane ana projede bulundum ve bazılarını kendim yürüttüm.
+    
+            </p>
+        </div>
+    </div>
+    
+</body>
+
+<script src="./myscript.js"></script>
+
+</html>
